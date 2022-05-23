@@ -1,0 +1,25 @@
+.slider {
+  /* border: 1px solid red; */
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 400px;
+  width: 1000px;
+  margin: auto;
+}
+
+.indietro,.avanti{
+  display: flex;
+  align-items: center;
+  padding: 0px 25px;
+  margin: 0px 25px;
+  cursor: pointer;
+  height: 25px;
+  border-radius: 15px;
+  color: white;
+  background-color: #3892c2;
+}
+
